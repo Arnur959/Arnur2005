@@ -1,0 +1,10 @@
+nomad-tour/
+│
+├── index.html
+├── style.css
+└── img/
+     ├── logo.png       (логотип)
+     ├── tour.jpg       (турпакеттер)
+     ├── visa.jpg       (визалық қолдау)
+     ├── flight.jpg     (әуе билеттері)
+     └── travel-bg.jpg  (басты баннер)
