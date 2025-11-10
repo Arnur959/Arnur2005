@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomad Tour - Туристическое агентство</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container header-container">
+    <div class="logo">
+      <img src="img/logo.png" alt="Nomad Tour логотип">
+      <h1>Nomad Tour</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Начните путешествие с нами!</h2>
+    <p>Лучшие направления и удобные услуги от Nomad Tour.</p>
+    <a href="#services" class="btn">Наши услуги</a>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Наши услуги</h2>
+  <div class="services-container">
+    <div class="card">
+      <img src="img/tour.jpg" alt="Турпакеты">
+      <h3>Турпакеты</h3>
+      <p>Популярные направления по доступным ценам.</p>
+    </div>
+    <div class="card">
+      <img src="img/visa.jpg" alt="Визовая поддержка">
+      <h3>Визовая поддержка</h3>
+      <p>Полная информация и помощь в оформлении визы.</p>
+    </div>
+    <div class="card">
+      <img src="img/flight.jpg" alt="Авиабилеты">
+      <h3>Авиабилеты</h3>
+      <p>Поиск дешевых и удобных рейсов.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Контакты</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Ваше имя" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Ваше сообщение..." required></textarea>
+    <button type="submit">Отправить</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Nomad Tour. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
